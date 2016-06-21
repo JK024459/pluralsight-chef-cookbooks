@@ -36,3 +36,10 @@ dsc_script 'Web-Mgmt-Console' do
   }
   EOH
 end
+
+# Remove IIS default web site
+include_recipe 'iis::remove_default_site'
+
+iis_site 'Default Web Site' do
+  action [:stop, :delete]
+end
