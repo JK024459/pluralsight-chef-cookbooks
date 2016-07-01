@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures webapp-linux'
 long_description 'Installs/Configures webapp-linux'
-version '0.1.10'
+version '0.1.13'
 
 depends 'apt', '~> 2.9.2'
 depends 'httpd', '~> 0.3.3'

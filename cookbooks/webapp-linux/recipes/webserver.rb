@@ -7,7 +7,7 @@
 #Install Apache and start the Apache service
 
 httpd_service 'customers' do
-#  npm 'prefork'
+  # npm 'prefork'
   action [:create, :start]
 end
 
